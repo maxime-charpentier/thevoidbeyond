@@ -1,0 +1,19 @@
+@charset 'utf-8';
+*,
+*:before,
+*:after { box-sizing: border-box; }
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus { outline: none; }
+
+body {
+    margin: 0px;
+    font-family: var(--font_family_sans_serif);
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
